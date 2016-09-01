@@ -44,6 +44,8 @@ module ActsAsTaggableOn::Taggable
           super
           @acts_as_taggable_on_cache_columns = nil
         end
+
+        columns
       end
     end
 
